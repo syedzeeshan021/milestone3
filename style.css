@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+resume-header1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Form container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Resume Output Styling */
+#resumeOutput {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#resumeOutput h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#resumeOutput hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+#resumeOutput h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+/*Paragraph element properties*/
+#resumeOutput p {
+    margin-bottom: 10px; /* adds a 10px space below each paragraph, 
+    providing visual separation between consecutive paragraphs.*/
+
+    line-height: 1.6; /* increases the spacing between lines of text within each paragraph, improving readability.*/
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    form, #resumeOutput {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+.profilePicture {
+    display: block;
+    margin : 0 auto;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
